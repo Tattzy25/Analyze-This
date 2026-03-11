@@ -86,7 +86,7 @@ export function ResultsTable({ data, onExportCSV, onExportJSON }: ResultsTablePr
         </div>
       </div>
 
-      <div className="overflow-hidden rounded-xl border border-border/50 bg-card/30 backdrop-blur-sm">
+      <div className="overflow-hidden rounded-xl border border-border bg-card shadow-md">
         <div className="overflow-x-auto">
           <table className="w-full text-sm">
             <thead>

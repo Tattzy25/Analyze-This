@@ -42,12 +42,12 @@ export function StatusCards({
           <div
             key={status.key}
             className={cn(
-              'relative flex flex-col items-center justify-center rounded-xl border p-4 transition-all duration-300',
-              'bg-card/50 backdrop-blur-sm',
-              isActive && status.key !== 'failed' && 'border-info/50 bg-info/5',
-              isPast && 'border-success/30 bg-success/5',
-              isFailed && 'border-destructive/50 bg-destructive/5',
-              !isActive && !isPast && !isFailed && 'border-border/50 opacity-40'
+              'relative flex flex-col items-center justify-center rounded-xl border p-4 shadow-md transition-all duration-300',
+              'bg-card',
+              isActive && status.key !== 'failed' && 'border-info/70 bg-info/10',
+              isPast && 'border-success/70 bg-success/10',
+              isFailed && 'border-destructive/70 bg-destructive/10',
+              !isActive && !isPast && !isFailed && 'border-border/60'
             )}
           >
             <div

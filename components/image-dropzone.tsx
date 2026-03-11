@@ -75,8 +75,8 @@ export function ImageDropzone({ onImagesAdded, disabled }: ImageDropzoneProps) {
       onDragOver={handleDragOver}
       className={cn(
         'group relative flex cursor-pointer flex-col items-center justify-center rounded-xl border-2 border-dashed p-8 transition-all duration-200',
-        'border-border/50 bg-card/30 backdrop-blur-sm',
-        'hover:border-info/50 hover:bg-info/5',
+        'border-border bg-card shadow-md',
+        'hover:border-info hover:bg-info/10',
         disabled && 'pointer-events-none opacity-50'
       )}
     >
